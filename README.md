@@ -2,6 +2,8 @@
 
 A quick code sample to test my understanding and example use cases of closures.
 
+The browser displays a brief text example with a header, subtitle and body text, with three buttons which enable the user to alter the relative font size on the page. 
+
 ## Technologies
 Vanilla JavaScript
 
