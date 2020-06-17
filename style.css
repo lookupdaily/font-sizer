@@ -65,6 +65,11 @@ button {
 }
 
 @media all and (max-width: 600px) {
+
+  .text {
+    width: 90vh;
+  }
+  
   .btn,
   .btn:visited {
     display: block;
