@@ -3,16 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Font Sizer</title>
 </head>
 <body>
-  <h1>Title</h1>
-  <h2>Subtitle</h2>
-  <p>Hello, world!</p>
-  <button id="size-12">Resize fonts to 12px</button>
-  <button id="size-14">Resize fonts to 14px</button>
-  <button id="size-16">Resize fonts to 16px</button>
+  <div class="container">
+    <section class="item text">
+      <h1>Title</h1>
+      <h2>Subtitle</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin ultricies ultrices. Maecenas vitae purus finibus, blandit nibh non, malesuada est. Sed pulvinar, urna id molestie mollis, sem metus pretium lectus, sed vehicula massa libero id lorem. Aenean pharetra finibus mauris, eu mollis quam congue ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ut metus nec arcu iaculis hendrerit. Cras eros odio, pharetra id euismod vitae, sagittis at tortor.</p>
+      <p>Integer tincidunt mauris nibh, id tincidunt ipsum hendrerit in. Fusce euismod lacinia sapien sed hendrerit. Donec faucibus arcu nec varius tristique. Phasellus nibh sem, consequat vitae elit viverra, posuere efficitur sapien. Mauris at augue venenatis, viverra purus ac, dictum orci. Sed sagittis justo id diam tincidunt ullamcorper. Nullam odio diam, pharetra eu nisi quis, vestibulum pulvinar metus. Vestibulum sollicitudin at lectus id aliquet. Nulla mattis, nibh sit amet semper ultricies, arcu odio pulvinar neque, placerat rutrum ipsum lacus in ante.</p>
+    </section>
+    <div class="item btn-group" role="group">
+      <button id="size-12" class="btn">Resize fonts relative to 12px</button>
+      <button id="size-14" class="btn">Resize fonts relative to 14px</button>
+      <button id="size-16" class="btn">Resize fonts relative to 16px</button>
+    </div>
+  </div>  
   <script src="js/fontSizer.js"></script>
   <script src="main.js"></script>
 </body>
